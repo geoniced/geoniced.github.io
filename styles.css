@@ -1,0 +1,107 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+
+  font-family: "Arial", sans-serif;
+  color: black;
+}
+
+.main-page {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.main-page__header {
+  text-align: center;
+}
+
+.main-page__knowledge {
+  margin-bottom: 20px;
+}
+
+
+.socials__title {
+  text-align: center;
+}
+
+.socials__links-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+
+.knowledge__title {
+  text-align: center;
+}
+
+.knowledge__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.knowledge__list-item {
+  margin-bottom: 10px;
+}
+
+.knowledge__list-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.footer {
+  width: 320px;
+  margin: 0 auto;
+
+  border-top: 2px solid gainsboro;
+}
+
+.footer__info {
+  margin: 0;
+  margin-top: 20px;
+}
+
+
+@media (min-width: 768px) {
+  .main-page {
+    width: 768px;
+  }
+
+
+  .socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .socials__links-list {
+    display: flex;
+    max-width: 500px;
+  }
+
+  .socials__link-item {
+    margin-right: 20px;
+  }
+
+  .socials__link-item:last-of-type {
+    margin-right: 0;
+  }
+
+
+  .footer {
+    width: 768px;
+  }
+}
