@@ -24,6 +24,19 @@ body {
 
 .main-page__header {
   text-align: center;
+  margin-bottom: 70px;
+}
+
+.main-page__header-title {
+  margin: 20px 0;
+}
+
+.main-page__header-description {
+  margin: 0;
+}
+
+.main-page__socials {
+  margin-bottom: 70px;
 }
 
 .main-page__knowledge {
